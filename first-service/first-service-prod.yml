@@ -1,0 +1,16 @@
+
+
+oauth2:
+  id: first_service
+
+resource:
+  token-info-uri: http://localhost:9191/oauth/check_token
+
+db:
+  url: jdbc:mysql://localhost:3306/first_service_db?createDatabaseIfNotExist=true&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+
+
+example:
+  value: config example value from first-service-prod.yml
+
+ secondServiceURL: http://second-service

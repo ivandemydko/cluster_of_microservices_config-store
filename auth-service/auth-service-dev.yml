@@ -1,0 +1,7 @@
+
+
+db:
+  url: jdbc:mysql://localhost:3306/authDB?createDatabaseIfNotExist=true&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+
+server:
+  port: 9191

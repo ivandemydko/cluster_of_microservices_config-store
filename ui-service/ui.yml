@@ -1,0 +1,12 @@
+oauth2:
+  id: ui
+
+auth-service:
+  uri: http://localhost:9191
+
+server:
+  port: 8080
+
+firstServiceURL: http://first-service
+
+secondServiceURL: http://second-service
